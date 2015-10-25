@@ -51,7 +51,6 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 700;
 	font-size: 180%
 }
-
 #social {
 	background-color: rbga(0,0,0);
 	position: absolute;
@@ -96,9 +95,17 @@ div:after {
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
+	text-align: left;
+}
+.listen {
+	padding-left: 25px;
+	margin-left: 100px;
 }
 #about {
 	background-color: #E35E97;
+}
+.download-button {
+	font-family: 'Cantarell', sans-serif;
 }
 .lead {
 	font-size: 150%;
